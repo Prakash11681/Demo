@@ -1,7 +1,8 @@
 version: 0.2
-
 phases:
   install:
+    runtime-versions:
+      java: openjdk8
     commands:
       #- ./my-script.sh
       - n 6.11.3
